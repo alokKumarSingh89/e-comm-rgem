@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "apiuser",
+    "password": "apipassword",
+    "database": "e-comm-rgem",
+    "host": "127.0.0.1",
+    "dialect": "mariadb",
+    "seederStorage": "sequelize"
+  }
+}

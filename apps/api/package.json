@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm run setup:db",
+    "setup:db": "npm run db:migrate && npm run db:seed",
+    "db:migrate": "npx sequelize db:migrate",
+    "db:seed": "./node_modules/.bin/sequelize db:seed:all"
+  }
+}
